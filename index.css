@@ -1,0 +1,493 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+}
+
+
+.nav-items {
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    color: brown;
+}
+
+@media screen and (max-width:576px) {
+
+
+    .nav-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    .nav-items {
+        font-size: 5px;
+    }
+
+    .app-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lindt-logo {
+        height: 25vh;
+        width: 50vw;
+    }
+
+    .app-2 {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .our-chocolates {
+        width: 30vw;
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .app-3-sub-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    .app-3-heading {
+        font-size: 10px;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    .app-3-description {
+        font-size: 15px;
+        padding: 15px;
+        font-family: "Times New Roman";
+    }
+
+    .app-3-button {
+
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 10vw;
+        height: 10vh;
+        display: block;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-weight: bold;
+        background: linear-gradient(to right, brown 50%, transparent 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+        border-color: white;
+
+
+    }
+
+    .app-3-button:hover {
+        background-position: left bottom;
+
+    }
+
+
+    .explore-our-chocolates-heading {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .explore-our-chocolates-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chocolates-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chocolates-container:hover .discover {
+        display: block;
+        height: 10vh;
+        width: 10vw;
+        background: linear-gradient(to right, brown 50%, transparent 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+        border-color: white;
+        border-width: 0;
+        border-style: none;
+
+    }
+
+    .best-sellers-details {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .lindor {
+        border: 1px;
+        border-style: solid;
+        border-color: silver;
+        color: silver;
+        background-color: transparent;
+        height: 5vh;
+        width: 25vw;
+        font-size: 10px;
+    }
+
+    .best-sellers-chocolate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heritage-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heritage-heading {
+        font-size: 15px;
+    }
+
+
+
+
+    .external-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-descrition {
+        font-size: 10px;
+    }
+}
+
+.input {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    width: 20vw;
+
+}
+
+.find-us-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    height: 15px;
+    width: 25px;
+}
+
+.app-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-chocolates {
+    font-family: serif;
+    padding: 25px;
+    font-weight: bold;
+    color: #c77728;
+}
+
+
+.app-3 {
+    background-image: url("https://article.innovamarketinsights360.com/articleimgs/article_images/637489824426311442cacao%20new.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+
+
+}
+
+.app-3-heading {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.app-3-sub-container {
+    width: 100vw;
+
+}
+
+.app-3-description {
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 15px;
+    width: auto;
+    padding: 15px;
+    line-break: loose;
+}
+
+.app-3-button {
+
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 20vw;
+    height: 10vh;
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right, brown 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    border-color: white;
+
+
+}
+
+.app-3-button:hover {
+    background-position: left bottom;
+
+}
+
+.discover {
+    display: none;
+}
+
+.chocolates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chocolates-container:hover .discover {
+    display: block;
+    height: auto;
+    width: 10vw;
+    background: linear-gradient(to right, brown 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    border-color: white;
+    border-style: none;
+    border-width: 0;
+    padding: 10px;
+
+}
+
+.chocolate-image {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.chocolate-image:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.explore-our-chocolates {
+    text-align: center;
+    padding: 15px;
+}
+
+.explore-our-chocolates-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-sellers-heading-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100vw;
+    padding: 15px;
+}
+
+.lindor {
+    border: 1px;
+    border-style: solid;
+    border-color: silver;
+    color: silver;
+    background-color: transparent;
+    height: 5vh;
+    width: 25vw;
+}
+
+.best-sellers-chocolate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.best-sellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-sellers-chocolate-details-description {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.best-sellers-chocolate-details {
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+
+.heritage-sustainability {
+    background-color: lightblue;
+    padding: 5%;
+}
+
+.heritage-sustainability-sub-div {
+    background-color: white;
+    padding: 5%;
+}
+
+.heritage-image {
+
+    width: auto;
+}
+
+.sustainability-image {
+
+    width: auto;
+}
+
+.read-more {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 30vw;
+    height: auto;
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(to right, brown 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    border-color: black;
+    padding: 15px;
+    margin: 15px;
+
+
+}
+
+.read-more:hover {
+    background-position: left bottom;
+
+}
+
+.heritage-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+
+
+.heritage-heading-story-details {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+
+.heritage-heading {
+    padding: 15px;
+}
+
+.our-story {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.external-links {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+
+.support {
+    font-size: 10px;
+
+}
+
+.support-container {
+    margin: 15px;
+}
+
+.support-items {
+    font-size: 10px;
+    padding: 15px;
+}
+
+.icons {
+    height: 2vh;
+    width: 2vw;
+}
+
+.icons-btn{
+    border-style: none;
+}
+
+.footer-descrition {
+    font-size: 10px;
+}
